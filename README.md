@@ -1,6 +1,6 @@
 # n64js
 
-n64js is an n64 emulator written in (mostly) pure ES6 JavaScript. It runs many roms at full framerate. This respotory is owned by martycat111 and does not require bun and can be ran offline without a server.
+n64js is an n64 emulator written in (mostly) pure ES6 JavaScript. It runs many roms at full framerate. This respitory is owned by martycat111 and does not require bun and can be ran offline without a server.
 
 ## Why?
 
@@ -9,26 +9,6 @@ Mostly for the challenge. I've spent ~25 years (on and off) working on N64 emula
 ## How To Run
 
 A hosted version is available on GitHub pages at https://hulkholden.github.io/n64js/.
-
-## Development
-
-Install `bun`: https://bun.sh/.
-
-Compile sources (pass --watch to automatically recompile on any change):
-
-```
-bun run build --watch
-```
-
-Run a local webserver in the root directory:
-
-```
-python3 -m http.server
-```
-
-Navigate to http://localhost:8000/.
-
-If you want to run without installing bun, you can change the importmap in index.html to point at src/n64.js instead of build/n64.min.js.
 
 ## Compatibility
 
