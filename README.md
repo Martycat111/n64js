@@ -1,6 +1,6 @@
 # n64js
 
-n64js is an n64 emulator written in (mostly) pure ES6 JavaScript. It runs many roms at full framerate.
+n64js is an n64 emulator written in (mostly) pure ES6 JavaScript. It runs many roms at full framerate. This respotory is owned by martycat111 and does not require bun and can be ran offline without a server.
 
 ## Why?
 
